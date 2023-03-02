@@ -1,0 +1,160 @@
+<html lang="en">
+<head>
+  <title>Education</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">CBIT INSTITUTION</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">About</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Academics<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">admissions</a></li>
+          <li><a href="#">syllabus</a></li>
+          <li><a href="#">calender</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Departments <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Civil</a></li>
+          <li><a href="#">IT</a></li>
+          <li><a href="#">CSE</a></li>
+          <li><a href="#">ECE</a></li>
+          <li><a href="#">MECH</a></li>
+
+
+        </ul>
+      </li>
+    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Infrastructure<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Labs</a></li>
+          <li><a href="#">Central Library</a></li>
+          <li><a href="#">Admin hall</a></li>
+        </ul>
+      </li>
+<li><a href="https://slideshare.com" class="fa fa-slideshare"></a></li>
+<li><a href="https://www.twitter.com" class="fa fa-twitter"></a></li>
+<li><a href="https://www.gmail.com" class="fa fa-google"></a></li>
+<li><a href="https://www.linkedin.com" class="fa fa-linkedin"></a></li>
+<li><a href="https://www.youtube.com" class="fa fa-youtube"></a></li>
+</ul>
+<ul class="nav navbar-nav pull-right">
+    <li><a href="#" data-toggle="modal" data-target="#basicModal1">Sign Up</a></li>
+    <li><a href="#" data-toggle="modal" data-target="#basicModal">Login</a></li>
+</ul>
+
+<div class="modal fade" id="basicModal1" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Sign Up</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+    <div class="form-group">
+      <label for="usr">Name:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+     <div class="form-group">
+      <label for="usr">Mail:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+     <div class="form-group">
+      <label for="pwd">Create Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Confirm Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+  </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">
+                Register
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Login</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+    <div class="form-group">
+      <label for="usr">Username or Email:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+  </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">
+                Submit
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+  </div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="clgbanner.jpg" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="1.png" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="2.jpg" alt="New york" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="3.jpg" alt="New york" style="width:100%;">
+      </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</nav>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d243630.99675786198!2d78.655167!3d17.424533000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9ea4b426b7e3699!2sSreenidhi%20Institute%20of%20Science%20%26%20Technology%20-%20SNIST!5e0!3m2!1sen!2sin!4v1635060463007!5m2!1sen!2sin" width="1500" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</body>
+</html>

@@ -1,0 +1,100 @@
+.foot{
+	background-color: black;
+	color: white;
+	height: 50px;
+	font-family: "Constantia";
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+}
+.RCB{
+	height: 20%;
+	width: 20%;
+}
+.RCB{
+	background-color: black;
+	font-style: bold;
+	color: white;
+	border: 10px double white;
+	margin-right: 10px;
+	
+}
+.CSK{
+	height: 20%;
+	width: 20%;
+}
+.CSK{
+	background-color: black;
+	font-style: bold;
+	color: white;
+	border: 10px double white;
+	margin-right: 10px;
+}
+.KKR{
+	height: 20%;
+	width: 20%;
+}
+.KKR{
+	background-color: black;
+	font-style: bold;
+	color: white;
+	border: 10px double white;
+	margin-right: 10px;
+}
+.SRH{
+	height: 20%;
+	width: 20%;
+}
+.SRH{
+	background-color: black;
+	font-style: bold;
+	color: white;
+	border: 10px double white;
+	margin-right: 10px;
+
+}
+.DC{
+	height: 20%;
+	width: 20%;
+}
+.DC{
+	background-color: black;
+	font-style: bold;
+	color: white;
+	border: 10px double white;
+	margin-right: 10px;
+	
+}
+.PK{
+	height: 20%;
+	width: 20%;
+}
+.PK{
+	background-color: black;
+	font-style: bold;
+	color: white;
+	border: 10px double white;
+	margin-right: 10px;
+}
+.MI{
+	height: 20%;
+	width: 20%;
+}
+.MI{
+	background-color: black;
+	font-style: bold;
+	color: white;
+	border: 10px double white;
+	margin-right: 10px;
+}
+.RR{
+	height: 20%;
+	width: 20%;
+}
+.RR{
+	background-color: black;
+	font-style: bold;
+	color: white;
+	border: 10px double white;
+	margin-right: 10px;
+}

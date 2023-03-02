@@ -1,0 +1,62 @@
+.coffee-available{
+	color: black;
+	height: 300px;
+	width: 300px;
+}
+.out-of-stock{
+	background-color: orange;
+	
+	border: 2px solid black;
+}
+
+
+.stock{
+	background-color: yellow;
+	
+	border: 2px solid black
+}
+
+
+.div-img{
+	height: 70%;
+	width: 90%;
+}
+
+.div-tea{
+	height: 70%;
+	width: 90%;
+}
+
+#ice_cream{
+	color: red;
+	border: width style color
+
+}
+.prizing{
+	width: 100%;
+	border: 3px double black;
+	text-align: center;
+
+}
+.cap{
+	color: red;
+}
+th{
+	background-color:lightblue;
+
+	color: green;
+	font-size: 22px;
+
+}
+td{
+	
+	font-size:20px;
+	color: brown; 
+    
+
+}
+
+.instock:hover{
+	background: orange;
+
+}
